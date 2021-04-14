@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: aliceblue;
+    display: flex;
+}
+.logo{
+    flex: 1;
+    height: 50px;
+    background-color: gray !important;
+
+}
+.navbar{
+    display: flex;
+    flex: 4;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar li{
+    padding: 10px;
+    list-style-type: none;
+    font-size: 20px;
+}
+.banner{
+    height: 250px;
+}
+.fakeimg{
+    background-color: lightgray;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+section, footer{
+    padding: 20px;
+}
+section div{
+    display: flex;
+}
+section div div{
+    height: 150px;
+    margin: 20px;
+    flex: 1;
+}
+section div p{
+    flex: 3;
+    margin: 20px;
+}
+footer{
+    display: flex;
+    background-color: aliceblue;
+    justify-content: space-evenly;
+}
+footer ul, footer div{
+}
+footer ul{
+    padding: 10px;
+    list-style-type: none;
+    font-size: 20px;
+}
+footer div.fakeimg{
+    height: 50px;
+    width: 60px;
+}
